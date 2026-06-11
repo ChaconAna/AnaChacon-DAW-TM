@@ -1,6 +1,10 @@
-<html lang="es"><head>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="https://tse4.mm.bing.net/th/id/OIP.VpRPuS_LIZAtuk86IWE4lwHaHY?rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://tse4.mm.bing.net/th/id/OIP.VpRPuS_LIZAtuk86IWE4lwHaHY?rs=1&pid=ImgDetMain&o=7&rm=3">
     <title>Últimas noticias de Argentina y el mundo - La Nación</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
@@ -24,7 +28,7 @@
             <div class="top-right">
                 <a href="#Contacto" class="contacto-link">CONTACTO</a>
                 <button class="login">INICIAR SESIÓN</button>
-                <button class="suscribite">SUSCRIBITE POR $900</button>
+                <a href="suscripcion.html" target="_blank" class="suscribite">SUSCRIBITE POR $900</a>
             </div>
         </div>
 
@@ -66,7 +70,8 @@
             <h3>ACTUALIDAD</h3>
             <h2>"Tenemos el mismo origen". La saga de los Massaccesi: se reconocieron por el apellido y se declararon
                 familia</h2>
-            <img src="https://resizer.glanacion.com/resizer/v2/el-primer-encuentro-se-realizo-el-10-de-diciembre-B3HAFZD6SJEBND6O6JXQ6WUFZA.jpeg?auth=1e8393a873ad146fa9e1615596906e74c341a59521c96b9ea96e64a5b5174201&amp;width=488&amp;height=325&amp;quality=70&amp;smart=true">
+            <img
+                src="https://resizer.glanacion.com/resizer/v2/el-primer-encuentro-se-realizo-el-10-de-diciembre-B3HAFZD6SJEBND6O6JXQ6WUFZA.jpeg?auth=1e8393a873ad146fa9e1615596906e74c341a59521c96b9ea96e64a5b5174201&width=488&height=325&quality=70&smart=true">
             <p>“Los Massa” comparten costumbres, recuerdos heredados y la convicción de que el apellido también puede
                 ser una forma de pertenencia</p>
             <p class="autor">Por <strong>Constanza Bengochea</strong></p>
@@ -87,19 +92,19 @@
     <form action="/form" method="get">
         <!-- el for dentro del label referencia al id del input -->
         <label for="idnombre">Nombre</label>
-        <input type="text" name="nombre" id="idnombre" required=""><br><br>
+        <input type="text" name="nombre" id="idnombre" required><br><br>
 
         <label for="idapellido">Apellido</label>
-        <input type="text" name="apellido" id="idapellido" required=""><br><br>
+        <input type="text" name="apellido" id="idapellido" required><br><br>
 
         <label for="idemail">Email</label>
-        <input type="email" name="email" id="idemail" required=""><br><br>
+        <input type="email" name="email" id="idemail" required><br><br>
 
         <label>Selecciona su ciudad:</label>
         <select name="ciudad">
             <optgroup label="Ciudades">
                 <option>Mendoza</option>
-                <option selected="">Rosario</option>
+                <option selected>Rosario</option>
                 <option>Santa Fe</option>
                 <option>Buenos Aires</option>
             </optgroup>
@@ -107,7 +112,7 @@
 
         <fieldset>
             <legend>Género</legend>
-            <label><input type="radio" name="Género" value="Femenino" checked="">Femenino</label>
+            <label><input type="radio" name="Género" value="Femenino" checked>Femenino</label>
             <label><input type="radio" name="Género" value="Masculino">Masculino</label>
         </fieldset><br>
 
@@ -125,6 +130,6 @@
             EXPEDIENTE DNDA (renovación) RL-2023-95334553-APN-DNDA#MJ.Queda prohibida la reproducción total o parcial
             del presente diario.</p>
     </footer>
-
-
-</body></html>
+    <script src="index.js"></script>
+</body>
+</html>
